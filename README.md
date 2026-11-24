@@ -11,6 +11,7 @@ AI engineer in Montréal. I build LLM systems that are measured before they ship
 | Project | What it is | Evidence |
 |---|---|---|
 | [finsage-lite](https://github.com/YoussefChaouki/finsage-lite) | Search and Q&A over SEC 10-K filings: BM25 + dense vectors + rank fusion written from scratch, local LLM, React front end | Recall@5 from 72 % to 87 % across four benchmarked configurations on a FinanceBench subset; 291 unit tests in CI |
+| [Nexus](https://github.com/YoussefChaouki/Nexus) | Multi-agent threat intelligence for AI systems: five LangGraph agents with a Critic feedback loop, evidence fetched through custom MCP servers (arXiv, NVD) | 80 % threat-surface coverage vs 27 % for a single prompt on a 5-target benchmark; 92 % test coverage in CI |
 | [dayone-codeml](https://github.com/YoussefChaouki/dayone-codeml) | Offline-first WhatsApp agent that turns photos of a paper maternal registry into a verified digital record, with local AI only | 93.4 % field accuracy on held-out patients, pre-registered protocol, known limits reported |
 | [erudi](https://github.com/erudi-app/erudi) | Open-source desktop app that runs open models on your own machine (MLX, llama.cpp), chat with your documents, fully offline | Shipped for macOS, Windows and Linux |
 | [citadel-rag](https://github.com/YoussefChaouki/citadel-rag) | Self-hosted RAG service on FastAPI, pgvector and Ollama; no data leaves the host | Evaluation harness with a golden dataset; CI with integration tests |
